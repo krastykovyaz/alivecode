@@ -1,0 +1,11 @@
+a = str(input())
+print(a[2])
+print(a[-2])
+print(a[:5])
+print(a[:-2])
+print(a[0::2])
+print(a[1::2])
+print(a[::-1])
+s = a[::-1]
+print(s[0::2])
+print(len(a))

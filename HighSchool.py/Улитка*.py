@@ -1,0 +1,5 @@
+h = int(input())
+a = int(input())
+b = int(input())
+c = (h - b + a - b - 1) // (a - b)
+print(int(c))
